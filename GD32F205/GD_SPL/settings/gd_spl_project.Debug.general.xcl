@@ -1,0 +1,13 @@
+"D:\iar\arm\bin\armproc.dll" 
+
+"D:\iar\arm\bin\armstlink2.dll" 
+
+"C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Exe\gd_spl_project.out" 
+
+--plugin="D:\iar\arm\bin\armbat.dll" 
+
+--flash_loader="D:\iar\arm\config\flashloader\GD\FlashGD32F20xxG.board" 
+
+
+
+

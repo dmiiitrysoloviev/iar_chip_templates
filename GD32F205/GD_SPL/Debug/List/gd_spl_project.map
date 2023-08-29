@@ -1,0 +1,344 @@
+###############################################################################
+#
+# IAR ELF Linker V8.32.1.169/W32 for ARM                  29/Aug/2023  08:33:07
+# Copyright 2007-2018 IAR Systems AB.
+#
+#    Output file  =  
+#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Exe\gd_spl_project.out
+#    Map file     =  
+#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\List\gd_spl_project.map
+#    Command line =  
+#        -f C:\Users\Pyrtikov\AppData\Local\Temp\EW7E75.tmp
+#        (C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj\gd32f20x_adc.o
+#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj\gd32f20x_bkp.o
+#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj\gd32f20x_can.o
+#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj\gd32f20x_cau.o
+#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj\gd32f20x_cau_aes.o
+#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj\gd32f20x_cau_des.o
+#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj\gd32f20x_cau_tdes.o
+#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj\gd32f20x_crc.o
+#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj\gd32f20x_dac.o
+#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj\gd32f20x_dbg.o
+#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj\gd32f20x_dci.o
+#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj\gd32f20x_dma.o
+#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj\gd32f20x_enet.o
+#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj\gd32f20x_exmc.o
+#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj\gd32f20x_exti.o
+#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj\gd32f20x_fmc.o
+#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj\gd32f20x_fwdgt.o
+#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj\gd32f20x_gpio.o
+#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj\gd32f20x_hau.o
+#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj\gd32f20x_hau_sha_md5.o
+#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj\gd32f20x_i2c.o
+#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj\gd32f20x_it.o
+#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj\gd32f20x_misc.o
+#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj\gd32f20x_pmu.o
+#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj\gd32f20x_rcu.o
+#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj\gd32f20x_rtc.o
+#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj\gd32f20x_sdio.o
+#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj\gd32f20x_spi.o
+#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj\gd32f20x_timer.o
+#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj\gd32f20x_tli.o
+#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj\gd32f20x_trng.o
+#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj\gd32f20x_usart.o
+#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj\gd32f20x_wwdgt.o
+#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj\main.o
+#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj\startup_gd32f20x_cl.o
+#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj\system_gd32f20x.o
+#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj\systick.o
+#        --no_out_extension -o
+#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Exe\gd_spl_project.out
+#        --redirect _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb
+#        --map
+#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\List\gd_spl_project.map
+#        --config D:\iar\arm\config\linker\GD\GD32F20xxG.icf --semihosting
+#        --entry __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, and there are calls to deallocation functions in the
+application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x800'0000 { ro section .intvec };
+"P1":  place in [from 0x800'0000 to 0x80f'ffff] { ro };
+define block CSTACK with size = 8K, alignment = 8 { };
+define block HEAP with size = 8K, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2003'ffff] {
+          rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+  Section            Kind         Address    Size  Object
+  -------            ----         -------    ----  ------
+"A0":                                       0x1a8
+  .intvec            ro code   0x800'0000   0x1a8  startup_gd32f20x_cl.o [1]
+                             - 0x800'01a8   0x1a8
+
+"P1":                                       0x6e4
+  .text              ro code   0x800'01a8   0x194  gd32f20x_rcu.o [1]
+  .text              ro code   0x800'033c    0x86  ABImemcpy.o [3]
+  .text              ro code   0x800'03c4   0x190  system_gd32f20x.o [1]
+  .text              ro code   0x800'0554    0xb8  systick.o [1]
+  .text              ro code   0x800'060c    0x34  main.o [1]
+  .text              ro code   0x800'0640    0x2c  copy_init3.o [3]
+  .text              ro code   0x800'066c    0x28  data_init.o [3]
+  .iar.init_table    const     0x800'0694    0x14  - Linker created -
+  .text              ro code   0x800'06a8    0x1e  cmain.o [3]
+  .text              ro code   0x800'06c6     0x4  low_level_init.o [2]
+  .text              ro code   0x800'06ca     0x4  exit.o [2]
+  .text              ro code   0x800'06d0     0xa  cexit.o [3]
+  .text              ro code   0x800'06dc    0x14  exit.o [4]
+  .text              ro code   0x800'06f0    0x18  gd32f20x_it.o [1]
+  .rodata            const     0x800'0708    0x10  gd32f20x_rcu.o [1]
+  .text              ro code   0x800'0718    0x10  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'0728     0xc  cstartup_M.o [3]
+  .rodata            const     0x800'0734     0x8  gd32f20x_rcu.o [1]
+  .rodata            const     0x800'073c     0x8  gd32f20x_rcu.o [1]
+  Initializer bytes  const     0x800'0744     0x8  <for P2-1>
+  .text              ro code   0x800'074c     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'0750     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'0754     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'0758     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'075c     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'0760     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'0764     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'0768     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'076c     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'0770     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'0774     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'0778     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'077c     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'0780     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'0784     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'0788     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'078c     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'0790     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'0794     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'0798     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'079c     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'07a0     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'07a4     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'07a8     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'07ac     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'07b0     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'07b4     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'07b8     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'07bc     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'07c0     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'07c4     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'07c8     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'07cc     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'07d0     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'07d4     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'07d8     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'07dc     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'07e0     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'07e4     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'07e8     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'07ec     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'07f0     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'07f4     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'07f8     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'07fc     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'0800     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'0804     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'0808     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'080c     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'0810     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'0814     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'0818     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'081c     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'0820     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'0824     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'0828     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'082c     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'0830     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'0834     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'0838     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'083c     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'0840     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'0844     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'0848     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'084c     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'0850     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'0854     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'0858     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'085c     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'0860     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'0864     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'0868     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'086c     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'0870     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'0874     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'0878     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'087c     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'0880     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'0884     0x4  startup_gd32f20x_cl.o [1]
+  .text              ro code   0x800'0888     0x4  startup_gd32f20x_cl.o [1]
+  .rodata            const     0x800'088c     0x0  copy_init3.o [3]
+                             - 0x800'088c   0x6e4
+
+"P2", part 1 of 2:                            0x8
+  P2-1                        0x2000'0000     0x8  <Init block>
+    .data            inited   0x2000'0000     0x4  system_gd32f20x.o [1]
+    .bss             inited   0x2000'0004     0x4  systick.o [1]
+                            - 0x2000'0008     0x8
+
+"P2", part 2 of 2:                         0x2000
+  CSTACK                      0x2000'0008  0x2000  <Block>
+    CSTACK           uninit   0x2000'0008  0x2000  <Block tail>
+                            - 0x2000'2008  0x2000
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+   0x800'088c   0x80f'ffff  0xf'f774
+  0x2000'2008  0x2003'ffff  0x3'dff8
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Copy (__iar_copy_init3)
+    1 source range, total size 0x8:
+           0x800'0744   0x8
+    1 destination range, total size 0x8:
+          0x2000'0000   0x8
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                 ro code  ro data  rw data
+    ------                 -------  -------  -------
+command line/config:
+    ------------------------------------------------
+    Total:
+
+C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj: [1]
+    gd32f20x_it.o               24
+    gd32f20x_rcu.o             404       32
+    main.o                      52
+    startup_gd32f20x_cl.o      760
+    system_gd32f20x.o          400        4        4
+    systick.o                  184        4        4
+    ------------------------------------------------
+    Total:                   1 824       40        8
+
+dl7M_tln.a: [2]
+    exit.o                       4
+    low_level_init.o             4
+    ------------------------------------------------
+    Total:                       8
+
+rt7M_tl.a: [3]
+    ABImemcpy.o                134
+    cexit.o                     10
+    cmain.o                     30
+    copy_init3.o                44
+    cstartup_M.o                12
+    data_init.o                 40
+    ------------------------------------------------
+    Total:                     270
+
+shb_l.a: [4]
+    exit.o                      20
+    ------------------------------------------------
+    Total:                      20
+
+    Gaps                         6
+    Linker created                       20    8 192
+----------------------------------------------------
+    Grand Total:             2 128       60    8 200
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address   Size  Type      Object
+-----                       -------   ----  ----      ------
+.iar.init_table$$Base    0x800'0694          --   Gb  - Linker created -
+.iar.init_table$$Limit   0x800'06a8          --   Gb  - Linker created -
+?main                    0x800'06a9         Code  Gb  cmain.o [3]
+BusFault_Handler         0x800'06f7    0x2  Code  Gb  gd32f20x_it.o [1]
+CSTACK$$Base            0x2000'0008          --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'2008          --   Gb  - Linker created -
+DebugMon_Handler         0x800'06fd    0x2  Code  Gb  gd32f20x_it.o [1]
+HardFault_Handler        0x800'06f3    0x2  Code  Gb  gd32f20x_it.o [1]
+MemManage_Handler        0x800'06f5    0x2  Code  Gb  gd32f20x_it.o [1]
+NMI_Handler              0x800'06f1    0x2  Code  Gb  gd32f20x_it.o [1]
+NVIC_SetPriority         0x800'0555   0x2c  Code  Lc  systick.o [1]
+PendSV_Handler           0x800'06ff    0x2  Code  Gb  gd32f20x_it.o [1]
+Region$$Table$$Base      0x800'0694          --   Gb  - Linker created -
+Region$$Table$$Limit     0x800'06a8          --   Gb  - Linker created -
+SVC_Handler              0x800'06fb    0x2  Code  Gb  gd32f20x_it.o [1]
+SysTick_Config           0x800'0581   0x30  Code  Lc  systick.o [1]
+SysTick_Handler          0x800'0701    0x8  Code  Gb  gd32f20x_it.o [1]
+SystemCoreClock         0x2000'0000    0x4  Data  Gb  system_gd32f20x.o [1]
+SystemInit               0x800'03c5   0xb0  Code  Gb  system_gd32f20x.o [1]
+UsageFault_Handler       0x800'06f9    0x2  Code  Gb  gd32f20x_it.o [1]
+__ICFEDIT_region_RAM_end__ {Abs}
+                        0x2003'ffff         Data  Gb  <internal module>
+__ICFEDIT_region_RAM_start__ {Abs}
+                        0x2000'0000         Data  Gb  <internal module>
+__aeabi_memcpy4          0x800'033d         Code  Gb  ABImemcpy.o [3]
+__aeabi_memcpy8          0x800'033d         Code  Gb  ABImemcpy.o [3]
+__cmain                  0x800'06a9         Code  Gb  cmain.o [3]
+__exit                   0x800'06dd   0x14  Code  Gb  exit.o [4]
+__iar_copy_init3         0x800'0641   0x2c  Code  Gb  copy_init3.o [3]
+__iar_data_init3         0x800'066d   0x28  Code  Gb  data_init.o [3]
+__iar_program_start      0x800'0729         Code  Gb  cstartup_M.o [3]
+__low_level_init         0x800'06c7    0x4  Code  Gb  low_level_init.o [2]
+__vector_table           0x800'0000         Data  Gb  startup_gd32f20x_cl.o [1]
+_call_main               0x800'06b5         Code  Gb  cmain.o [3]
+_exit                    0x800'06d1         Code  Gb  cexit.o [3]
+_main                    0x800'06c3         Code  Gb  cmain.o [3]
+delay                   0x2000'0004    0x4  Data  Lc  systick.o [1]
+delay_decrement          0x800'05e1   0x10  Code  Gb  systick.o [1]
+delay_ms                 0x800'05d5    0xc  Code  Gb  systick.o [1]
+exit                     0x800'06cb    0x4  Code  Gb  exit.o [2]
+main                     0x800'060d   0x34  Code  Gb  main.o [1]
+rcu_clock_freq_get       0x800'01a9  0x178  Code  Gb  gd32f20x_rcu.o [1]
+system_clock_120m_hxtal_8
+                         0x800'047d   0xa0  Code  Lc  system_gd32f20x.o [1]
+system_clock_config      0x800'0475    0x8  Code  Lc  system_gd32f20x.o [1]
+systick_config           0x800'05b1   0x24  Code  Gb  systick.o [1]
+
+
+[1] = C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj
+[2] = dl7M_tln.a
+[3] = rt7M_tl.a
+[4] = shb_l.a
+
+  2 128 bytes of readonly  code memory
+     60 bytes of readonly  data memory
+  8 200 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
