@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "D:\iar\common\bin\cspybat" -f "C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\settings\gd_spl_project.Debug.general.xcl" --backend -f "C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\settings\gd_spl_project.Debug.driver.xcl" 
+& "D:\iar\common\bin\cspybat" -f "C:\Users\Pyrtikov\Desktop\iar_chip_templates\GD32F205\GD_SPL\settings\gd_spl_project.Debug.general.xcl" --backend -f "C:\Users\Pyrtikov\Desktop\iar_chip_templates\GD32F205\GD_SPL\settings\gd_spl_project.Debug.driver.xcl" 
 }
 else
 {
-& "D:\iar\common\bin\cspybat" -f "C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\settings\gd_spl_project.Debug.general.xcl" --debug_file=$debugfile --backend -f "C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\settings\gd_spl_project.Debug.driver.xcl" 
+& "D:\iar\common\bin\cspybat" -f "C:\Users\Pyrtikov\Desktop\iar_chip_templates\GD32F205\GD_SPL\settings\gd_spl_project.Debug.general.xcl" --debug_file=$debugfile --backend -f "C:\Users\Pyrtikov\Desktop\iar_chip_templates\GD32F205\GD_SPL\settings\gd_spl_project.Debug.driver.xcl" 
 }

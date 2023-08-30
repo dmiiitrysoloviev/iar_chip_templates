@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"D:\iar\common\bin\cspybat" -f "C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\settings\gd_spl_project.Debug.general.xcl" --backend -f "C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\settings\gd_spl_project.Debug.driver.xcl" 
+"D:\iar\common\bin\cspybat" -f "C:\Users\Pyrtikov\Desktop\iar_chip_templates\GD32F205\GD_SPL\settings\gd_spl_project.Debug.general.xcl" --backend -f "C:\Users\Pyrtikov\Desktop\iar_chip_templates\GD32F205\GD_SPL\settings\gd_spl_project.Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"D:\iar\common\bin\cspybat" -f "C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\settings\gd_spl_project.Debug.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\settings\gd_spl_project.Debug.driver.xcl" 
+"D:\iar\common\bin\cspybat" -f "C:\Users\Pyrtikov\Desktop\iar_chip_templates\GD32F205\GD_SPL\settings\gd_spl_project.Debug.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\Pyrtikov\Desktop\iar_chip_templates\GD32F205\GD_SPL\settings\gd_spl_project.Debug.driver.xcl" 
 
 @echo off 
 :end

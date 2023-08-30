@@ -1,56 +1,56 @@
 ###############################################################################
 #
-# IAR ELF Linker V8.32.1.169/W32 for ARM                  29/Aug/2023  08:33:07
+# IAR ELF Linker V8.32.1.169/W32 for ARM                  29/Aug/2023  08:59:53
 # Copyright 2007-2018 IAR Systems AB.
 #
 #    Output file  =  
-#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Exe\gd_spl_project.out
+#        C:\Users\Pyrtikov\Desktop\iar_chip_templates\GD32F205\GD_SPL\Debug\Exe\gd_spl_project.out
 #    Map file     =  
-#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\List\gd_spl_project.map
+#        C:\Users\Pyrtikov\Desktop\iar_chip_templates\GD32F205\GD_SPL\Debug\List\gd_spl_project.map
 #    Command line =  
-#        -f C:\Users\Pyrtikov\AppData\Local\Temp\EW7E75.tmp
-#        (C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj\gd32f20x_adc.o
-#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj\gd32f20x_bkp.o
-#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj\gd32f20x_can.o
-#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj\gd32f20x_cau.o
-#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj\gd32f20x_cau_aes.o
-#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj\gd32f20x_cau_des.o
-#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj\gd32f20x_cau_tdes.o
-#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj\gd32f20x_crc.o
-#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj\gd32f20x_dac.o
-#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj\gd32f20x_dbg.o
-#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj\gd32f20x_dci.o
-#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj\gd32f20x_dma.o
-#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj\gd32f20x_enet.o
-#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj\gd32f20x_exmc.o
-#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj\gd32f20x_exti.o
-#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj\gd32f20x_fmc.o
-#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj\gd32f20x_fwdgt.o
-#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj\gd32f20x_gpio.o
-#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj\gd32f20x_hau.o
-#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj\gd32f20x_hau_sha_md5.o
-#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj\gd32f20x_i2c.o
-#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj\gd32f20x_it.o
-#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj\gd32f20x_misc.o
-#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj\gd32f20x_pmu.o
-#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj\gd32f20x_rcu.o
-#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj\gd32f20x_rtc.o
-#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj\gd32f20x_sdio.o
-#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj\gd32f20x_spi.o
-#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj\gd32f20x_timer.o
-#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj\gd32f20x_tli.o
-#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj\gd32f20x_trng.o
-#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj\gd32f20x_usart.o
-#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj\gd32f20x_wwdgt.o
-#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj\main.o
-#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj\startup_gd32f20x_cl.o
-#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj\system_gd32f20x.o
-#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj\systick.o
+#        -f C:\Users\Pyrtikov\AppData\Local\Temp\EWFFE6.tmp
+#        (C:\Users\Pyrtikov\Desktop\iar_chip_templates\GD32F205\GD_SPL\Debug\Obj\gd32f20x_adc.o
+#        C:\Users\Pyrtikov\Desktop\iar_chip_templates\GD32F205\GD_SPL\Debug\Obj\gd32f20x_bkp.o
+#        C:\Users\Pyrtikov\Desktop\iar_chip_templates\GD32F205\GD_SPL\Debug\Obj\gd32f20x_can.o
+#        C:\Users\Pyrtikov\Desktop\iar_chip_templates\GD32F205\GD_SPL\Debug\Obj\gd32f20x_cau.o
+#        C:\Users\Pyrtikov\Desktop\iar_chip_templates\GD32F205\GD_SPL\Debug\Obj\gd32f20x_cau_aes.o
+#        C:\Users\Pyrtikov\Desktop\iar_chip_templates\GD32F205\GD_SPL\Debug\Obj\gd32f20x_cau_des.o
+#        C:\Users\Pyrtikov\Desktop\iar_chip_templates\GD32F205\GD_SPL\Debug\Obj\gd32f20x_cau_tdes.o
+#        C:\Users\Pyrtikov\Desktop\iar_chip_templates\GD32F205\GD_SPL\Debug\Obj\gd32f20x_crc.o
+#        C:\Users\Pyrtikov\Desktop\iar_chip_templates\GD32F205\GD_SPL\Debug\Obj\gd32f20x_dac.o
+#        C:\Users\Pyrtikov\Desktop\iar_chip_templates\GD32F205\GD_SPL\Debug\Obj\gd32f20x_dbg.o
+#        C:\Users\Pyrtikov\Desktop\iar_chip_templates\GD32F205\GD_SPL\Debug\Obj\gd32f20x_dci.o
+#        C:\Users\Pyrtikov\Desktop\iar_chip_templates\GD32F205\GD_SPL\Debug\Obj\gd32f20x_dma.o
+#        C:\Users\Pyrtikov\Desktop\iar_chip_templates\GD32F205\GD_SPL\Debug\Obj\gd32f20x_enet.o
+#        C:\Users\Pyrtikov\Desktop\iar_chip_templates\GD32F205\GD_SPL\Debug\Obj\gd32f20x_exmc.o
+#        C:\Users\Pyrtikov\Desktop\iar_chip_templates\GD32F205\GD_SPL\Debug\Obj\gd32f20x_exti.o
+#        C:\Users\Pyrtikov\Desktop\iar_chip_templates\GD32F205\GD_SPL\Debug\Obj\gd32f20x_fmc.o
+#        C:\Users\Pyrtikov\Desktop\iar_chip_templates\GD32F205\GD_SPL\Debug\Obj\gd32f20x_fwdgt.o
+#        C:\Users\Pyrtikov\Desktop\iar_chip_templates\GD32F205\GD_SPL\Debug\Obj\gd32f20x_gpio.o
+#        C:\Users\Pyrtikov\Desktop\iar_chip_templates\GD32F205\GD_SPL\Debug\Obj\gd32f20x_hau.o
+#        C:\Users\Pyrtikov\Desktop\iar_chip_templates\GD32F205\GD_SPL\Debug\Obj\gd32f20x_hau_sha_md5.o
+#        C:\Users\Pyrtikov\Desktop\iar_chip_templates\GD32F205\GD_SPL\Debug\Obj\gd32f20x_i2c.o
+#        C:\Users\Pyrtikov\Desktop\iar_chip_templates\GD32F205\GD_SPL\Debug\Obj\gd32f20x_it.o
+#        C:\Users\Pyrtikov\Desktop\iar_chip_templates\GD32F205\GD_SPL\Debug\Obj\gd32f20x_misc.o
+#        C:\Users\Pyrtikov\Desktop\iar_chip_templates\GD32F205\GD_SPL\Debug\Obj\gd32f20x_pmu.o
+#        C:\Users\Pyrtikov\Desktop\iar_chip_templates\GD32F205\GD_SPL\Debug\Obj\gd32f20x_rcu.o
+#        C:\Users\Pyrtikov\Desktop\iar_chip_templates\GD32F205\GD_SPL\Debug\Obj\gd32f20x_rtc.o
+#        C:\Users\Pyrtikov\Desktop\iar_chip_templates\GD32F205\GD_SPL\Debug\Obj\gd32f20x_sdio.o
+#        C:\Users\Pyrtikov\Desktop\iar_chip_templates\GD32F205\GD_SPL\Debug\Obj\gd32f20x_spi.o
+#        C:\Users\Pyrtikov\Desktop\iar_chip_templates\GD32F205\GD_SPL\Debug\Obj\gd32f20x_timer.o
+#        C:\Users\Pyrtikov\Desktop\iar_chip_templates\GD32F205\GD_SPL\Debug\Obj\gd32f20x_tli.o
+#        C:\Users\Pyrtikov\Desktop\iar_chip_templates\GD32F205\GD_SPL\Debug\Obj\gd32f20x_trng.o
+#        C:\Users\Pyrtikov\Desktop\iar_chip_templates\GD32F205\GD_SPL\Debug\Obj\gd32f20x_usart.o
+#        C:\Users\Pyrtikov\Desktop\iar_chip_templates\GD32F205\GD_SPL\Debug\Obj\gd32f20x_wwdgt.o
+#        C:\Users\Pyrtikov\Desktop\iar_chip_templates\GD32F205\GD_SPL\Debug\Obj\main.o
+#        C:\Users\Pyrtikov\Desktop\iar_chip_templates\GD32F205\GD_SPL\Debug\Obj\startup_gd32f20x_cl.o
+#        C:\Users\Pyrtikov\Desktop\iar_chip_templates\GD32F205\GD_SPL\Debug\Obj\system_gd32f20x.o
+#        C:\Users\Pyrtikov\Desktop\iar_chip_templates\GD32F205\GD_SPL\Debug\Obj\systick.o
 #        --no_out_extension -o
-#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Exe\gd_spl_project.out
+#        C:\Users\Pyrtikov\Desktop\iar_chip_templates\GD32F205\GD_SPL\Debug\Exe\gd_spl_project.out
 #        --redirect _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb
 #        --map
-#        C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\List\gd_spl_project.map
+#        C:\Users\Pyrtikov\Desktop\iar_chip_templates\GD32F205\GD_SPL\Debug\List\gd_spl_project.map
 #        --config D:\iar\arm\config\linker\GD\GD32F20xxG.icf --semihosting
 #        --entry __iar_program_start --vfe --text_out locale)
 #
@@ -240,7 +240,7 @@ command line/config:
     ------------------------------------------------
     Total:
 
-C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj: [1]
+C:\Users\Pyrtikov\Desktop\iar_chip_templates\GD32F205\GD_SPL\Debug\Obj: [1]
     gd32f20x_it.o               24
     gd32f20x_rcu.o             404       32
     main.o                      52
@@ -331,7 +331,7 @@ system_clock_config      0x800'0475    0x8  Code  Lc  system_gd32f20x.o [1]
 systick_config           0x800'05b1   0x24  Code  Gb  systick.o [1]
 
 
-[1] = C:\Users\Pyrtikov\Desktop\GD32F205\GD_SPL\Debug\Obj
+[1] = C:\Users\Pyrtikov\Desktop\iar_chip_templates\GD32F205\GD_SPL\Debug\Obj
 [2] = dl7M_tln.a
 [3] = rt7M_tl.a
 [4] = shb_l.a
