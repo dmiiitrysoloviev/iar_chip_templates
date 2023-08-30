@@ -713,7 +713,8 @@ static void system_clock_96m_hxtal(void)
 
 #elif defined (__SYSTEM_CLOCK_108M_PLL_HXTAL)
 /*!
-    \brief      configure the system clock to 108M by PLL which selects HXTAL(MD/HD/XD:8M; CL:25M) as its clock source
+    \brief      configure the system clock to 108M by PLL which selects HXTAL(MD/HD/XD:8M; CL:8M) as its clock source 
+    \brief      (adjusted the multipliers to work with the CL series on an 8 MHz external quartz resonator)
     \param[in]  none
     \param[out] none
     \retval     none
@@ -760,9 +761,9 @@ static void system_clock_108m_hxtal(void)
     RCU_CFG0 &= ~(RCU_CFG0_PLLMF | RCU_CFG0_PLLMF_4);
     RCU_CFG0 |= (RCU_PLLSRC_HXTAL | RCU_PLL_MUL27);
 
-    /* CK_PREDIV0 = (CK_HXTAL)/5 *8 /10 = 4 MHz */ 
+    /* CK_PREDIV0 = (CK_HXTAL)/8 *8 /2 = 4 MHz */ 
     RCU_CFG1 &= ~(RCU_CFG1_PREDV0SEL | RCU_CFG1_PLL1MF | RCU_CFG1_PREDV1 | RCU_CFG1_PREDV0);
-    RCU_CFG1 |= (RCU_PREDV0SRC_CKPLL1 | RCU_PLL1_MUL8 | RCU_PREDV1_DIV5 | RCU_PREDV0_DIV10);
+    RCU_CFG1 |= (RCU_PREDV0SRC_CKPLL1 | RCU_PLL1_MUL8 | RCU_PREDV1_DIV8 | RCU_PREDV0_DIV2); // Set up my values - /8, *8, /2
 
     /* enable PLL1 */
     RCU_CTL |= RCU_CTL_PLL1EN;

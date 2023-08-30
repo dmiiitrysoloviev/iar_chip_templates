@@ -299,7 +299,7 @@ C:\Users\Pyrtikov\Desktop\iar_chip_templates\GD32F107\GD_SPL\Firmware\Peripheral
 -D__EDG_FLOAT80_ENABLING_POSSIBLE=0
 -D__EDG_FLOAT128_ENABLING_POSSIBLE=0
 -DUSE_STDPERIPH_DRIVER=1
--DGD32F10X_MD=1
+-DGD32F10X_CL=1
 -D_DLIB_CONFIG_FILE_HEADER_NAME="D:\\iar\\arm\\inc\\c\\DLib_Config_Normal.h"
 -D_DLIB_CONFIG_FILE_STRING="D:\\iar\\arm\\inc\\c\\DLib_Config_Normal.h"
 -D__VERSION__="IAR ANSI C/C++ Compiler V8.32.1.169/W32 for ARM"
