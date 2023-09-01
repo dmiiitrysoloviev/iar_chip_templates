@@ -1,4 +1,6 @@
 ﻿C:\Users\Pyrtikov\Desktop\iar_chip_templates\GD32F107\GD_SPL\Debug\Obj\gd_spl_project.pbd
+C:\Users\Pyrtikov\Desktop\iar_chip_templates\GD32F107\GD_SPL\Debug\Obj\system_gd32f10x.pbi
+C:\Users\Pyrtikov\Desktop\iar_chip_templates\GD32F107\GD_SPL\Debug\Obj\systick.pbi
 C:\Users\Pyrtikov\Desktop\iar_chip_templates\GD32F107\GD_SPL\Debug\Obj\gd32f10x_adc.pbi
 C:\Users\Pyrtikov\Desktop\iar_chip_templates\GD32F107\GD_SPL\Debug\Obj\gd32f10x_bkp.pbi
 C:\Users\Pyrtikov\Desktop\iar_chip_templates\GD32F107\GD_SPL\Debug\Obj\gd32f10x_can.pbi
@@ -24,5 +26,3 @@ C:\Users\Pyrtikov\Desktop\iar_chip_templates\GD32F107\GD_SPL\Debug\Obj\gd32f10x_
 C:\Users\Pyrtikov\Desktop\iar_chip_templates\GD32F107\GD_SPL\Debug\Obj\gd32f10x_usart.pbi
 C:\Users\Pyrtikov\Desktop\iar_chip_templates\GD32F107\GD_SPL\Debug\Obj\gd32f10x_wwdgt.pbi
 C:\Users\Pyrtikov\Desktop\iar_chip_templates\GD32F107\GD_SPL\Debug\Obj\main.pbi
-C:\Users\Pyrtikov\Desktop\iar_chip_templates\GD32F107\GD_SPL\Debug\Obj\system_gd32f10x.pbi
-C:\Users\Pyrtikov\Desktop\iar_chip_templates\GD32F107\GD_SPL\Debug\Obj\systick.pbi

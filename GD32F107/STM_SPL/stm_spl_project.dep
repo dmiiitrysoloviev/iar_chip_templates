@@ -1,0 +1,970 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>4</fileVersion>
+    <fileChecksum>3533872740</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\Firmware\Peripheral\Source\stm32f10x_pwr.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_rtc.__cstat.et</file>
+            <file>$PROJ_DIR$\Firmware\Peripheral\Source\stm32f10x_can.c</file>
+            <file>$PROJ_DIR$\Firmware\Peripheral\Source\stm32f10x_fsmc.c</file>
+            <file>$PROJ_DIR$\Firmware\Peripheral\Source\stm32f10x_crc.c</file>
+            <file>$PROJ_DIR$\Firmware\Peripheral\Source\stm32f10x_rcc.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_wwdg.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_rcc.__cstat.et</file>
+            <file>$PROJ_DIR$\Firmware\Peripheral\Source\stm32f10x_cec.c</file>
+            <file>$PROJ_DIR$\Firmware\Peripheral\Source\stm32f10x_iwdg.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_spi.__cstat.et</file>
+            <file>$PROJ_DIR$\Firmware\Peripheral\Source\stm32f10x_dac.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_tim.__cstat.et</file>
+            <file>$PROJ_DIR$\Firmware\Peripheral\Source\stm32f10x_bkp.c</file>
+            <file>$PROJ_DIR$\Firmware\Peripheral\Source\stm32f10x_i2c.c</file>
+            <file>$PROJ_DIR$\Firmware\Peripheral\Source\stm32f10x_rtc.c</file>
+            <file>$PROJ_DIR$\Firmware\Peripheral\Source\stm32f10x_wwdg.c</file>
+            <file>$PROJ_DIR$\Firmware\Peripheral\Source\stm32f10x_dma.c</file>
+            <file>$PROJ_DIR$\Firmware\Peripheral\Source\stm32f10x_spi.c</file>
+            <file>$PROJ_DIR$\Firmware\Peripheral\Source\stm32f10x_dbgmcu.c</file>
+            <file>$PROJ_DIR$\Firmware\Peripheral\Source\stm32f10x_adc.c</file>
+            <file>$PROJ_DIR$\Firmware\Peripheral\Source\stm32f10x_flash.c</file>
+            <file>$PROJ_DIR$\Firmware\Peripheral\Source\stm32f10x_exti.c</file>
+            <file>$PROJ_DIR$\Firmware\Peripheral\Source\stm32f10x_gpio.c</file>
+            <file>$PROJ_DIR$\Firmware\Peripheral\Source\stm32f10x_it.c</file>
+            <file>$PROJ_DIR$\Firmware\Peripheral\Source\stm32f10x_tim.c</file>
+            <file>$PROJ_DIR$\Firmware\Peripheral\Source\stm32f10x_usart.c</file>
+            <file>$PROJ_DIR$\main.c</file>
+            <file>$PROJ_DIR$\main.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_usart.__cstat.et</file>
+            <file>$PROJ_DIR$\Firmware\Peripheral\Source\stm32f10x_sdio.c</file>
+            <file>$PROJ_DIR$\Firmware\Drivers\Source\systick.c</file>
+            <file>$PROJ_DIR$\Firmware\CMSIS\Startup\startup_stm32f10x_cl.s</file>
+            <file>$PROJ_DIR$\Firmware\CMSIS\core_cm3.c</file>
+            <file>$PROJ_DIR$\Firmware\CMSIS\system_stm32f10x.c</file>
+            <file>$PROJ_DIR$\Firmware\Peripheral\Source\misc.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_fsmc.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_cec.o</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Core\Include\cmsis_compiler.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_gpio.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_can.pbi</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Core\Include\cmsis_iccarm.h</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Core\Include\cmsis_version.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_it.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_tim.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_flash.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_usart.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_dma.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_dma.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\systick.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_dbgmcu.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_iwdg.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_rtc.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_tim.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_crc.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_pwr.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_adc.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_dac.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_it.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\misc.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_can.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_exti.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_spi.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_bkp.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_sdio.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_rcc.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_i2c.o</file>
+            <file>$PROJ_DIR$\Debug\List\stm_spl_project.map</file>
+            <file>$PROJ_DIR$\Firmware\Peripheral\Include\stm32f10x_pwr.h</file>
+            <file>$PROJ_DIR$\Firmware\Peripheral\Include\stm32f10x_sdio.h</file>
+            <file>$PROJ_DIR$\Firmware\Peripheral\Include\stm32f10x_spi.h</file>
+            <file>$PROJ_DIR$\Firmware\Peripheral\Include\stm32f10x_dbgmcu.h</file>
+            <file>$PROJ_DIR$\Firmware\Peripheral\Include\misc.h</file>
+            <file>$PROJ_DIR$\Firmware\Peripheral\Include\stm32f10x_fsmc.h</file>
+            <file>$PROJ_DIR$\Firmware\Peripheral\Include\stm32f10x_flash.h</file>
+            <file>$PROJ_DIR$\Firmware\Peripheral\Include\stm32f10x_usart.h</file>
+            <file>$PROJ_DIR$\Firmware\Drivers\Include\drivers_libopt.h</file>
+            <file>$PROJ_DIR$\Firmware\Drivers\Include\systick.h</file>
+            <file>$PROJ_DIR$\Firmware\Peripheral\Include\stm32f10x_dma.h</file>
+            <file>$PROJ_DIR$\Firmware\CMSIS\stm32f10x.h</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+            <file>$PROJ_DIR$\Firmware\Peripheral\Include\stm32f10x_iwdg.h</file>
+            <file>$PROJ_DIR$\Firmware\Peripheral\Include\stm32f10x_gpio.h</file>
+            <file>$PROJ_DIR$\Firmware\Peripheral\Include\stm32f10x_tim.h</file>
+            <file>$PROJ_DIR$\Firmware\Peripheral\Include\stm32f10x_exti.h</file>
+            <file>$PROJ_DIR$\Firmware\Peripheral\Include\stm32f10x_wwdg.h</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+            <file>$PROJ_DIR$\Firmware\Peripheral\Include\stm32f10x_i2c.h</file>
+            <file>$PROJ_DIR$\Firmware\Peripheral\Include\stm32f10x_it.h</file>
+            <file>$PROJ_DIR$\Firmware\Peripheral\Include\stm32f10x_rtc.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\systick.pbi</file>
+            <file>$PROJ_DIR$\Firmware\Peripheral\Include\stm32f10x_rcc.h</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Core\Include\core_cm3.h</file>
+            <file>$TOOLKIT_DIR$\config\linker\GD\GD32F107xC.icf</file>
+            <file>$PROJ_DIR$\Debug\Obj\startup_stm32f10x_cl.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\systick.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\core_cm3.pbi</file>
+            <file>$PROJ_DIR$\Firmware\Peripheral\Include\stm32f10x_crc.h</file>
+            <file>$PROJ_DIR$\Firmware\Peripheral\Include\stm32f10x_dac.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\misc.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_bkp.__cstat.et</file>
+            <file>$PROJ_DIR$\Firmware\Peripheral\Include\stm32f10x_bkp.h</file>
+            <file>$PROJ_DIR$\Firmware\Peripheral\Include\stm32f10x_adc.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_stm32f10x.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_gpio.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_dbgmcu.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_sdio.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_flash.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_crc.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_iwdg.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_cec.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_exti.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_pwr.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_dma.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_dac.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_can.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_adc.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_wwdg.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\core_cm3.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_i2c.__cstat.et</file>
+            <file>$PROJ_DIR$\Firmware\Peripheral\Include\stm32f10x_can.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_stm32f10x.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_fsmc.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_it.__cstat.et</file>
+            <file>$PROJ_DIR$\Firmware\Peripheral\Include\stm32f10x_cec.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\core_cm3.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_stm32f10x.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_rtc.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_pwr.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\misc.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_cec.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_dbgmcu.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_adc.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_bkp.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_exti.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_i2c.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$PROJ_DIR$\Debug\Exe\stm_spl_project.out</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_crc.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_rcc.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_wwdg.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_sdio.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_iwdg.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_fsmc.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\Firmware\Peripheral\Include\stm32f10x_conf.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_flash.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_usart.pbi</file>
+            <file>$PROJ_DIR$\Firmware\CMSIS\system_stm32f10x.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm_spl_project.pbd</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_spi.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_dac.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_gpio.pbi</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 146 69</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Firmware\Peripheral\Source\stm32f10x_pwr.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 56</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 135</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 117</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 70 81 97 153 59 160 139 145 134 43 39 42 90 157 154 107 106 125 129 102 103 73 80 87 76 75 85 92 84 96 94 71 72 86 77 88 74 93</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 85 81 153 134 129 86 97 59 160 80 96 93 157 43 145 90 106 103 76 84 71 88 70 154 39 139 42 107 125 102 73 87 75 92 94 72 77 74</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Firmware\Peripheral\Source\stm32f10x_can.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 62</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 41</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 120</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 125 81 97 153 59 160 139 145 134 43 39 42 90 157 154 107 106 129 102 103 73 80 87 76 75 85 92 84 70 96 94 71 72 86 77 88 74 93</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 81 70 139 42 73 74 157 154 125 75 72 96 153 39 160 107 102 87 92 94 77 97 43 59 145 134 90 106 129 103 80 76 85 84 71 86 88 93</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Firmware\Peripheral\Source\stm32f10x_fsmc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 37</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 152</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 127</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 75 81 97 153 59 160 139 145 134 43 39 42 90 157 154 107 106 125 129 102 103 73 80 87 76 85 92 84 70 96 94 71 72 86 77 88 74 93</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 87 81 160 157 107 94 153 39 102 92 77 96 97 154 139 42 125 73 75 70 72 74 43 59 145 134 90 106 129 103 80 76 85 84 71 86 88 93</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Firmware\Peripheral\Source\stm32f10x_crc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 55</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 147</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 113</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 102 81 97 153 59 160 139 145 134 43 39 42 90 157 154 107 106 125 129 103 73 80 87 76 75 85 92 84 70 96 94 71 72 86 77 88 74 93</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 59 93 81 157 160 80 96 134 129 85 86 97 153 43 145 90 106 103 76 84 71 88 102 154 39 139 42 107 125 73 87 75 92 70 94 72 77 74</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Firmware\Peripheral\Source\stm32f10x_rcc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 67</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 148</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 7</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 96 81 97 153 59 160 139 145 134 43 39 42 90 157 154 107 106 125 129 102 103 73 80 87 76 75 85 92 84 70 94 71 72 86 77 88 74 93</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 157 86 134 129 85 81 59 160 80 96 93 97 153 43 145 90 106 103 76 84 71 88 154 39 139 42 107 125 102 73 87 75 92 70 94 72 77 74</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Firmware\Peripheral\Source\stm32f10x_cec.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 38</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 137</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 115</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 129 81 97 153 59 160 139 145 134 43 39 42 90 157 154 107 106 125 102 103 73 80 87 76 75 85 92 84 70 96 94 71 72 86 77 88 74 93</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 81 96 59 160 80 93 157 134 129 85 86 97 153 43 145 90 106 103 76 84 71 88 154 39 139 42 107 125 102 73 87 75 92 70 94 72 77 74</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Firmware\Peripheral\Source\stm32f10x_iwdg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 52</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 151</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 114</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 84 81 97 153 59 160 139 145 134 43 39 42 90 157 154 107 106 125 129 102 103 73 80 87 76 75 85 92 70 96 94 71 72 86 77 88 74 93</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 85 81 157 134 129 86 59 160 80 96 93 97 153 43 145 90 106 103 76 84 71 88 154 39 139 42 107 125 102 73 87 75 92 70 94 72 77 74</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Firmware\Peripheral\Source\stm32f10x_dac.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 58</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 161</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 119</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 103 81 97 153 59 160 139 145 134 43 39 42 90 157 154 107 106 125 129 102 73 80 87 76 75 85 92 84 70 96 94 71 72 86 77 88 74 93</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 153 90 71 81 145 106 76 97 43 103 84 88 96 157 59 134 160 129 80 85 86 93 154 39 139 42 107 125 102 73 87 75 92 70 94 72 77 74</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Firmware\Peripheral\Source\stm32f10x_bkp.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 65</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 141</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 105</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 106 81 97 153 59 160 139 145 134 43 39 42 90 157 154 107 125 129 102 103 73 80 87 76 75 85 92 84 70 96 94 71 72 86 77 88 74 93</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 74 139 81 42 73 157 70 154 125 75 72 96 97 153 39 160 107 102 87 92 94 77 106 43 59 145 134 90 129 103 80 76 85 84 71 86 88 93</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Firmware\Peripheral\Source\stm32f10x_i2c.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 68</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 143</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 124</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 92 81 97 153 59 160 139 145 134 43 39 42 90 157 154 107 106 125 129 102 103 73 80 87 76 75 85 84 70 96 94 71 72 86 77 88 74 93</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 72 125 154 75 81 157 139 42 73 70 74 96 97 153 39 160 107 102 87 92 94 77 43 59 145 134 90 106 129 103 80 76 85 84 71 86 88 93</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Firmware\Peripheral\Source\stm32f10x_rtc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 53</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 133</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 1</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 94 81 97 153 59 160 139 145 134 43 39 42 90 157 154 107 106 125 129 102 103 73 80 87 76 75 85 92 84 70 96 71 72 86 77 88 74 93</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 81 160 87 107 94 157 153 39 102 92 77 97 154 139 42 125 73 75 70 72 74 43 59 145 134 90 106 129 103 80 76 85 84 96 71 86 88 93</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Firmware\Peripheral\Source\stm32f10x_wwdg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 122</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 149</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 6</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 88 81 97 153 59 160 139 145 134 43 39 42 90 157 154 107 106 125 129 102 103 73 80 87 76 75 85 92 84 70 96 94 71 72 86 77 74 93</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 125 81 72 97 154 75 153 139 42 73 70 74 96 157 39 160 107 102 87 92 94 77 88 43 59 145 134 90 106 129 103 80 76 85 84 71 86 93</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Firmware\Peripheral\Source\stm32f10x_dma.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 49</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 48</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 118</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 80 81 97 153 59 160 139 145 134 43 39 42 90 157 154 107 106 125 129 102 103 73 87 76 75 85 92 84 70 96 94 71 72 86 77 88 74 93</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 81 84 43 103 88 157 145 90 106 76 71 96 97 153 59 134 160 129 80 85 86 93 154 39 139 42 107 125 102 73 87 75 92 70 94 72 77 74</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Firmware\Peripheral\Source\stm32f10x_spi.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 64</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 159</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 10</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 72 81 97 153 59 160 139 145 134 43 39 42 90 157 154 107 106 125 129 102 103 73 80 87 76 75 85 92 84 70 96 94 71 86 77 88 74 93</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 86 153 134 129 85 81 97 59 160 80 96 93 157 43 145 90 106 103 76 84 71 88 72 154 39 139 42 107 125 102 73 87 75 92 70 94 77 74</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Firmware\Peripheral\Source\stm32f10x_dbgmcu.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 51</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 138</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 110</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 73 81 97 153 59 160 139 145 134 43 39 42 90 157 154 107 106 125 129 102 103 80 87 76 75 85 92 84 70 96 94 71 72 86 77 88 74 93</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 103 43 81 88 84 157 145 90 106 76 71 97 153 59 134 160 129 80 85 96 86 93 73 154 39 139 42 107 125 102 87 75 92 70 94 72 77 74</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Firmware\Peripheral\Source\stm32f10x_adc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 57</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 140</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 121</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 107 81 97 153 59 160 139 145 134 43 39 42 90 157 154 106 125 129 102 103 73 80 87 76 75 85 92 84 70 96 94 71 72 86 77 88 74 93</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 81 84 43 103 88 157 145 90 106 76 71 96 97 153 59 134 160 129 80 85 86 93 107 154 39 139 42 125 102 73 87 75 92 70 94 72 77 74</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Firmware\Peripheral\Source\stm32f10x_flash.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 46</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 155</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 112</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 76 81 97 153 59 160 139 145 134 43 39 42 90 157 154 107 106 125 129 102 103 73 80 87 75 85 92 84 70 96 94 71 72 86 77 88 74 93</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 107 81 94 157 160 87 153 39 102 92 77 97 154 139 42 125 73 75 70 72 74 76 43 59 145 134 90 106 129 103 80 85 84 96 71 86 88 93</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Firmware\Peripheral\Source\stm32f10x_exti.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 63</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 142</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 116</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 87 81 97 153 59 160 139 145 134 43 39 42 90 157 154 107 106 125 129 102 103 73 80 76 75 85 92 84 70 96 94 71 72 86 77 88 74 93</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 42 73 81 157 139 74 70 154 125 75 72 97 153 39 160 107 102 87 92 94 77 43 59 145 134 90 106 129 103 80 76 85 84 96 71 86 88 93</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Firmware\Peripheral\Source\stm32f10x_gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 40</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 162</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 109</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 85 81 97 153 59 160 139 145 134 43 39 42 90 157 154 107 106 125 129 102 103 73 80 87 76 75 92 84 70 96 94 71 72 86 77 88 74 93</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 81 84 43 103 88 157 145 90 106 76 71 96 97 153 59 134 160 129 80 85 86 93 154 39 139 42 107 125 102 73 87 75 92 70 94 72 77 74</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Firmware\Peripheral\Source\stm32f10x_it.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 44</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 60</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 128</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 93 81 97 153 59 160 139 145 134 43 39 42 90 157 154 107 106 125 129 102 103 73 80 87 76 75 85 92 84 70 96 94 71 72 86 77 88 74</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 153 76 81 145 90 106 71 97 43 103 84 88 157 59 134 160 129 80 85 96 86 93 154 39 139 42 107 125 102 73 87 75 92 70 94 72 77 74</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Firmware\Peripheral\Source\stm32f10x_tim.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 54</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 45</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 13</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 86 81 97 153 59 160 139 145 134 43 39 42 90 157 154 107 106 125 129 102 103 73 80 87 76 75 85 92 84 70 96 94 71 72 77 88 74 93</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 81 76 145 90 106 71 157 43 103 84 88 96 97 153 59 134 160 129 80 85 86 93 154 39 139 42 107 125 102 73 87 75 92 70 94 72 77 74</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Firmware\Peripheral\Source\stm32f10x_usart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 47</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 156</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 30</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 77 81 97 153 59 160 139 145 134 43 39 42 90 157 154 107 106 125 129 102 103 73 80 87 76 75 85 92 84 70 96 94 71 72 86 88 74 93</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 157 88 43 103 81 84 145 90 106 76 71 96 97 153 59 134 160 129 80 85 86 93 77 154 39 139 42 107 125 102 73 87 75 92 70 94 72 74</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 144</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 132</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 12</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 29 154 107 81 97 153 59 160 139 145 134 43 39 42 90 157 106 125 129 102 103 73 80 87 76 75 85 92 84 70 96 94 71 72 86 77 88 74 93 78 79</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 81 75 125 72 153 160 73 70 74 154 107 102 87 92 94 77 97 39 79 78 106 129 103 80 76 85 84 96 71 86 88 93 157 139 42 29 43 59 145 134 90</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Firmware\Peripheral\Source\stm32f10x_sdio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 66</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 150</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 111</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 71 81 97 153 59 160 139 145 134 43 39 42 90 157 154 107 106 125 129 102 103 73 80 87 76 75 85 92 84 70 96 94 72 86 77 88 74 93</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 97 86 134 129 85 81 153 59 160 80 96 93 157 43 145 90 106 103 76 84 71 88 154 39 139 42 107 125 102 73 87 75 92 70 94 72 77 74</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Firmware\Drivers\Source\systick.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 50</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 95</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 100</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 79 81 97 153 59 160 139 145 134 43 39 42 90 157 154 107 106 125 129 102 103 73 80 87 76 75 85 92 84 70 96 94 71 72 86 77 88 74 93</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 157 85 81 153 134 129 86 59 160 80 96 93 97 43 145 90 106 103 76 84 71 88 79 154 39 139 42 107 125 102 73 87 75 92 70 94 72 77 74</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Firmware\CMSIS\Startup\startup_stm32f10x_cl.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 99</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Firmware\CMSIS\core_cm3.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 123</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 101</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 130</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 153 59 160 139 145 134</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 59 139 160 153 145 134</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Firmware\CMSIS\system_stm32f10x.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 126</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 131</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 108</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 81 97 153 59 160 139 145 134 43 39 42 90 157 154 107 106 125 129 102 103 73 80 87 76 75 85 92 84 70 96 94 71 72 86 77 88 74 93</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 85 81 134 129 86 157 59 160 80 96 93 97 153 43 145 90 106 103 76 84 71 88 154 39 139 42 107 125 102 73 87 75 92 70 94 72 77 74</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Firmware\Peripheral\Source\misc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 61</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 136</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 104</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 74 81 97 153 59 160 139 145 134 43 39 42 90 157 154 107 106 125 129 102 103 73 80 87 76 75 85 92 84 70 96 94 71 72 86 77 88 93</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 74 139 81 42 73 70 157 154 125 75 72 97 153 39 160 107 102 87 92 94 77 43 59 145 134 90 106 129 103 80 76 85 84 96 71 86 88 93</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\stm_spl_project.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 69</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 98 123 144 61 99 57 65 62 38 55 58 51 49 63 46 37 40 68 44 52 56 67 53 66 64 54 47 122 126 50 89 82 83 91</file>
+                </tool>
+            </inputs>
+        </file>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>
